@@ -51,7 +51,7 @@ h1 {
   color: white;
   margin: 10px;
   padding: 10px;
-  background: rgb(38, 61, 38);
+  background: #00473e;
   border-radius: 4px;
 }
 
@@ -59,10 +59,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #f8f8f8;
 }
 
 .container {
-  background: rgb(255, 255, 255);
+  background: rgb(255, 254, 254);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h2 {
@@ -71,6 +75,9 @@ h2 {
   color: #333;
   margin-bottom: 1rem;
   max-width: 300px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
 }
 
 .container p {
@@ -81,7 +88,6 @@ h2 {
 
 .buttons {
   display: flex;
-  justify-content: center;
 }
 
 button {
